@@ -7,3 +7,4 @@ pytest-mypy
 mypy==0.902
 mypy-extensions
 twine
+prettymaps
