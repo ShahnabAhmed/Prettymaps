@@ -8,9 +8,9 @@ from matplotlib.pyplot import figure
 import streamlit as st
 from geopandas import GeoDataFrame
 
-from prettymapp.plotting import Plot
-from prettymapp.osm import get_osm_geometries
-from prettymapp.settings import STYLES
+from prettymap.plotting import Plot
+from prettymap.osm import get_osm_geometries
+from prettymap.settings import STYLES
 
 
 @st.experimental_memo(show_spinner=False)
